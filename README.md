@@ -58,3 +58,9 @@ The intended integration flow is:
 4. the administrator receives a real-time alert
 
 This provides a lightweight way to monitor bans and suspicious activity without constantly checking logs manually.
+
+## Repository Structure
+
+- `scripts/` – notification scripts
+- `fail2ban/action.d/` – example Fail2ban action configuration
+- `docs/` – project notes and supporting documentation
