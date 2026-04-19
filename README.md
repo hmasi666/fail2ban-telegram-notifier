@@ -64,3 +64,13 @@ This provides a lightweight way to monitor bans and suspicious activity without 
 - `scripts/` – notification scripts
 - `fail2ban/action.d/` – example Fail2ban action configuration
 - `docs/` – project notes and supporting documentation
+
+## Next Steps
+
+Possible future improvements:
+
+- support for richer message formatting
+- notifications for unban events
+- rate limiting or batching for noisy periods
+- support for multiple Telegram destinations
+- integration with additional monitoring workflows
