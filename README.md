@@ -47,3 +47,14 @@ This repository is based on a real notification setup adapted into a public exam
 AI tools (ChatGPT) were used for idea exploration, script refinement, debugging, and documentation support. The final workflow was tested and adjusted manually in a real environment.
 
 Sensitive information such as bot tokens, chat IDs, hostnames, and user-specific details has been removed from this public version.
+
+## Integration Flow
+
+The intended integration flow is:
+
+1. Fail2ban detects a matching event from log activity
+2. a custom action calls the Telegram notification script
+3. the script sends a message through the Telegram Bot API
+4. the administrator receives a real-time alert
+
+This provides a lightweight way to monitor bans and suspicious activity without constantly checking logs manually.
